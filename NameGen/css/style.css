@@ -1,0 +1,80 @@
+
+/* Center corresponding child elements within its grid area */
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+/* styling title */
+.titleBG{
+    background-color: rgb(80, 63, 230);
+}
+
+.title{
+    margin-top: 25px;   
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    background-color: rgb(80, 63, 230);
+    box-shadow: 5px 5px 10px black;
+    padding: 10px 10px 10px 10px;
+    color: white;
+}
+
+.subtitle{
+    color: white;
+}
+.extraMargin{
+    margin-top: 25px;
+}
+
+.nameGenBG{
+    margin-top: 50px;
+    background-color: rgb(168, 164, 164, 0.4);
+    padding-bottom: 50px;
+    
+}
+.nameGenFont{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-top: 50px;
+    color: rgb(0, 0, 0);
+}
+.marginRight{
+    margin-right: 30px;
+}
+
+/* Editing styling for btn group and NameGen Btn */
+
+.btnSize{
+    padding: 15px 15px 15px 15px;
+    font-size: 30px;
+}
+ .buttonPadding{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+ }
+
+ .btn:hover{
+    background-color: white;
+    color: black;
+ }
+ .btn{
+     border-radius: 20px;
+ }
+
+ 
+ .footer {
+    position: fixed;
+    height: 200px;
+    padding: 70px 0;
+
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(80, 63, 230);
+    color: white;
+    font-size: 50px;
+    text-align: center;
+  }
