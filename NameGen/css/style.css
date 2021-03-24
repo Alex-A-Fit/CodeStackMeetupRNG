@@ -1,4 +1,6 @@
-
+body{
+    height: 105vh;
+}
 /* Center corresponding child elements within its grid area */
 .center{
     display: flex;
@@ -67,14 +69,12 @@
  
  .footer {
     position: fixed;
-    height: 200px;
-    padding: 70px 0;
-
+    height: 50px;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: rgb(80, 63, 230);
     color: white;
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
   }
